@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+box-sizing: border-box;
+text-decoration: none;
+outline: none;
+border: none;
+text-transform: capitalize;
+transition: all 2.5s linear;
+}
+::selection{
+    background: rgb(255, 0, 0);
+    color: black;
+}
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+body{
+    background: #111;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+header .user img{
+    height: 25rem;
+    width: 22rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border:.3rem solid rgb(144, 144, 137);
+}
+header .user .name{
+    font-size: 5.5 rem;
+    color: rgb(239, 240, 227);
+}
+header .user .post{
+    font-size: 1.5rem;
+color:white; 
+}
+header .nav-bar{
+    width: 100%;
+}
+header .nav-bar ul{
+list-style: none;
+padding: 1rem 3rem;
+
+}
+header .nav-bar ul li a{
+display:block;
+padding: 0.8rem;
+margin: 1.5rem 0;
+background: #333;
+color: white;
+font-size: 15px;
+border-radius: 100px;
+}
+header .nav-bar ul li a:hover{
+    background: #f80000;
+    color:rgb(0, 0, 0);
+}
+section{
+    min-height: 100vh;
+    padding: 1rem;
+    margin-left: 35rem;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
+.home h3 {
+    font-size:2.5rem ;
+    color:#ffffff ;
+}
+.home h2 {
+    font-size:3rem ;
+    color:#ffffff ;
+    
+}.home p {
+    font-size:2rem ;
+    color:#ffffff ;
+    padding: 1rem 0;
+}
+.btn{
+    padding: .7rem 3rem;
+    background: #333;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+width: 20rem;
+height: 5rem;
+border-radius: 5rem;
+}
+.btn i{
+    padding: 0 .5 rem;
+    font-size: 1.8rem;
+}
+.btn:hover{
+    background: #f80000;
+    color: #ffffff;
+    width: 30rem;
+}
+
+

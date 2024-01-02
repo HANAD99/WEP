@@ -36,11 +36,11 @@ header{
     text-align: center;
 }
 header .user img{
-    height: 25rem;
-    width: 22rem;
+    height: 28rem;
+    width: 28rem;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     border:.3rem solid rgb(144, 144, 137);
 }
 header .user .name{
@@ -81,18 +81,18 @@ section{
     display: flex;
     justify-content: center;
     flex-flow: column;
-    padding: 0 15rem;
+    padding: 0 22rem;
 }
 .home h3 {
-    font-size:2.5rem ;
+    font-size:4rem ;
     color:#ffffff ;
 }
 .home h2 {
-    font-size:3rem ;
+    font-size:4rem ;
     color:#ffffff ;
     
 }.home p {
-    font-size:2rem ;
+    font-size:2.6rem ;
     color:#ffffff ;
     padding: 1rem 0;
 }

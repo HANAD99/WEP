@@ -28,7 +28,7 @@ header{
     left: 0;
     z-index: 1000;
     height: 100%;
-    width: 45rem;
+    width: 40rem;
     background:#6d6c6c;
     display: flex;
     align-items: center;
@@ -70,8 +70,8 @@ font-size: 15px;
 border-radius: 100px;
 }
 header .nav-bar ul li a:hover{
-    background:#797676;
-    color:rgb(0, 0, 0);
+    background:#01069c;
+    color:rgb(254, 254, 254);
 }
 section{
     min-height: 100vh;
@@ -113,8 +113,8 @@ border-radius: 5rem;
     font-size: 1.8rem;
 }
 .btn:hover{
-    background:#fffefe;
-    color: #030101;
+    background:#01069c;
+    color: #ffffff;
     width: 30rem;
 }
 

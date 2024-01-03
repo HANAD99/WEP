@@ -7,19 +7,20 @@ text-decoration: none;
 outline: none;
 border: none;
 text-transform: capitalize;
-transition: all 2.5s linear;
+transition: all 1.5s linear;
 }
 ::selection{
-    background: rgb(255, 0, 0);
-    color: black;
+    background: rgb(173, 230, 0);
+    color: rgb(0, 0, 0);
 }
 html{
     font-size: 62.5%;
     overflow: hidden;
 }
 body{
-    background: #111;
+    background: #000000;
     overflow-x: hidden;
+    
 }
 header{
     position: fixed;
@@ -27,8 +28,8 @@ header{
     left: 0;
     z-index: 1000;
     height: 100%;
-    width: 35rem;
-    background: #1a1a1a;
+    width: 45rem;
+    background:#6d6c6c;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,20 +37,20 @@ header{
     text-align: center;
 }
 header .user img{
-    height: 28rem;
-    width: 28rem;
+    height: 25rem;
+    width: 25rem;
     border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 4rem;
-    border:.3rem solid rgb(144, 144, 137);
+    object-fit: fill;
+    margin-bottom: 5rem;
+    border:.3rem solid rgb(0, 0, 0);
 }
 header .user .name{
-    font-size: 5.5 rem;
-    color: rgb(239, 240, 227);
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
 }
 header .user .post{
     font-size: 1.5rem;
-color:white; 
+color:rgb(0, 0, 0); 
 }
 header .nav-bar{
     width: 100%;
@@ -62,14 +63,14 @@ padding: 1rem 3rem;
 header .nav-bar ul li a{
 display:block;
 padding: 0.8rem;
-margin: 1.5rem 0;
-background: #333;
-color: white;
+margin: 3rem 0;
+background: #000000;
+color:#797676;
 font-size: 15px;
 border-radius: 100px;
 }
 header .nav-bar ul li a:hover{
-    background: #f80000;
+    background:#797676;
     color:rgb(0, 0, 0);
 }
 section{
@@ -85,21 +86,21 @@ section{
 }
 .home h3 {
     font-size:4rem ;
-    color:#ffffff ;
+    color:#797676 ;
 }
 .home h2 {
     font-size:4rem ;
-    color:#ffffff ;
+    color:#797676 ;
     
 }.home p {
     font-size:2.6rem ;
-    color:#ffffff ;
+    color:#797676 ;
     padding: 1rem 0;
 }
 .btn{
     padding: .7rem 3rem;
-    background: #333;
-    color: #ffffff;
+    background: rgb(130, 128, 128);
+    color: rgb(2, 2, 2);
     cursor: pointer;
     margin-top: 1rem;
     font-size: 2rem;
@@ -112,8 +113,8 @@ border-radius: 5rem;
     font-size: 1.8rem;
 }
 .btn:hover{
-    background: #f80000;
-    color: #ffffff;
+    background:#fffefe;
+    color: #030101;
     width: 30rem;
 }
 
